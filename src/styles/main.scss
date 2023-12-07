@@ -1,0 +1,32 @@
+@use 'hero';
+@use 'food';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+
+    @media (max-width: 678px) {
+        overflow-x: hidden; 
+        width: 100%;
+    }
+}
+
+body{
+    background-image: linear-gradient(#e574a0, #7ae1fa);
+    
+    @media (max-width: 678px) {
+        width: 100%; 
+    }
+}
+
+img{
+    width: 360px;
+    height: 260px;
+    border-radius: 10px;
+
+    @media (max-width: 678px) {
+        width: 100%;
+    }
+}
